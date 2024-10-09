@@ -25,7 +25,8 @@ const bigNumber = 36546378928376323n
 const heros = ["shaktiman", "naagraj", "doga"]
 let myObj=
 {
-    name:  "harsh"
+    name:  "harsh",
+    age: 24
 }
 
 
@@ -35,3 +36,32 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
